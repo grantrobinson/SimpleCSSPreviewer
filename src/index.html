@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Previewer</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body>
+
+<div id="app-container" class="app-container">
+<div id="preview-panel" class="preview-panel">
+	<div id="temp-element" class="temp-element"></div>
+</div>
+	
+<div id="css-panel" class="css-panel">
+<textarea id="css-text" class="css-textarea" numrows="10"></textarea>
+<div id="update-btn" class="pill-btn update-btn">Update</div>
+</div>
+</div>
+
+<!-- Javascript -->
+<script type="text/javascript" src="lib/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="lib/js/underscore-min.js"></script>
+<script type="text/javascript" src="lib/js/backbone-min.js"></script>
+
+<script type="text/javascript" src="js/appview.js"></script>
+<script type="text/javascript" src="js/elementmodel.js"></script>
+<script type="text/javascript" src="js/elementcssview.js"></script>
+<script type="text/javascript" src="js/elementpreviewview.js"></script>
+<script type="text/javascript" src="js/setup.js"></script>
+
+</body>
+</html>
